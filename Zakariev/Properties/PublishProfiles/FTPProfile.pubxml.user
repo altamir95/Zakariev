@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Этот файл используется процессом публикации или упаковки вашего веб-проекта. Можно настроить поведение этого процесса,
+изменив этот файл MSBuild. Подробности см. на странице https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAnayb/0+Do0u6oPujtm5WjAAAAAACAAAAAAAQZgAAAAEAACAAAAAjPgqHyUQMtQ/9ds7RC0Oj+b8Mp+72gPF9sxv9uI/uFQAAAAAOgAAAAAIAACAAAAB7xBwVk2iDIbK2xa+MuvUzSgZMbBYII5B+NgrTFYsBCSAAAAA4lGi4Gs2bTAD4BZzNuZarTQfZLEFntt9sNVPITZ5uGEAAAADgBydoxTmunv3iv3iZjw77OncwnrKE9xZ2S5NlRROEN2pWU6HuLZGO2yOj8VxXeU71BYWGe/od8YpUHx5fWw58</EncryptedPassword>
+    <_PublishTargetUrl>ftp://zakariev.somee.com/www.zakariev.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>01/22/2021 21:05:45</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>01/23/2021 01:32:28</publishTime>
+    </File>
+    <File Include="ClientApp/build/asset-manifest.json">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/favicon.ico">
+      <publishTime>10/26/1985 12:15:00</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/basket.svg">
+      <publishTime>01/23/2021 15:39:05</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/facebook.svg">
+      <publishTime>01/23/2021 15:39:05</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/home.svg">
+      <publishTime>01/23/2021 15:39:05</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/IMGhth_6571.JPG">
+      <publishTime>01/23/2021 15:39:05</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/instagram.svg">
+      <publishTime>01/23/2021 15:39:05</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/jcb.svg">
+      <publishTime>01/23/2021 15:39:05</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/logo.svg">
+      <publishTime>01/23/2021 15:39:05</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/maestro.svg">
+      <publishTime>01/23/2021 15:39:06</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/mastercard.svg">
+      <publishTime>01/23/2021 15:39:06</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/mir.svg">
+      <publishTime>01/23/2021 15:39:06</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/support.svg">
+      <publishTime>01/23/2021 15:39:06</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/telegram.svg">
+      <publishTime>01/23/2021 15:39:07</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/visa.svg">
+      <publishTime>01/23/2021 15:39:07</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/vk.svg">
+      <publishTime>01/23/2021 15:39:07</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/whatsapp.svg">
+      <publishTime>01/23/2021 15:39:11</publishTime>
+    </File>
+    <File Include="ClientApp/build/images/youtube.svg">
+      <publishTime>01/23/2021 15:39:11</publishTime>
+    </File>
+    <File Include="ClientApp/build/index.html">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/logo192.png">
+      <publishTime>10/26/1985 12:15:00</publishTime>
+    </File>
+    <File Include="ClientApp/build/logo512.png">
+      <publishTime>10/26/1985 12:15:00</publishTime>
+    </File>
+    <File Include="ClientApp/build/manifest.json">
+      <publishTime>10/26/1985 12:15:00</publishTime>
+    </File>
+    <File Include="ClientApp/build/precache-manifest.953a01d26951163bcbc038878e0eaa02.js">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/robots.txt">
+      <publishTime>10/26/1985 12:15:00</publishTime>
+    </File>
+    <File Include="ClientApp/build/service-worker.js">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/2.150d169a.chunk.css">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/2.150d169a.chunk.css.map">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/2.cf29e716.chunk.css">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/2.cf29e716.chunk.css.map">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/main.6636e503.chunk.css">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/main.6636e503.chunk.css.map">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/main.8c8b27cf.chunk.css">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/main.8c8b27cf.chunk.css.map">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/main.a13922d3.chunk.css">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/css/main.a13922d3.chunk.css.map">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.7378cfac.chunk.js">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.7378cfac.chunk.js.LICENSE.txt">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.7378cfac.chunk.js.map">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.84cbc50e.chunk.js">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.84cbc50e.chunk.js.LICENSE.txt">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.84cbc50e.chunk.js.map">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.88468eac.chunk.js">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.88468eac.chunk.js.LICENSE.txt">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.88468eac.chunk.js.map">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.8c49cdbf.chunk.js">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.8c49cdbf.chunk.js.LICENSE.txt">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.8c49cdbf.chunk.js.map">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/3.71935dc5.chunk.js">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/3.71935dc5.chunk.js.map">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/3.7b081b4b.chunk.js">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/3.7b081b4b.chunk.js.map">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/3.7dafd58e.chunk.js">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/3.7dafd58e.chunk.js.map">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.2180a1db.chunk.js">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.2180a1db.chunk.js.map">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.377835f4.chunk.js">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.377835f4.chunk.js.map">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.82e8c5aa.chunk.js">
+      <publishTime>01/23/2021 23:29:27</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.82e8c5aa.chunk.js.map">
+      <publishTime>01/23/2021 23:29:27</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.b1f93b94.chunk.js">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.b1f93b94.chunk.js.map">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.efcb10e4.chunk.js">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.efcb10e4.chunk.js.map">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/runtime-main.6d347f62.js">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/runtime-main.6d347f62.js.map">
+      <publishTime>01/22/2021 21:15:34</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/runtime-main.b18b82d7.js">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/runtime-main.b18b82d7.js.map">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/runtime-main.ba705334.js">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/runtime-main.ba705334.js.map">
+      <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/runtime-main.c4a8decd.js">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/runtime-main.c4a8decd.js.map">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/media/logo.6ce24c58.svg">
+      <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/media/preloader.ca88df5f.svg">
+      <publishTime>01/24/2021 00:56:29</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>12/14/2020 05:06:10</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.JsonPatch.dll">
+      <publishTime>12/14/2020 05:03:18</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll">
+      <publishTime>12/14/2020 05:07:06</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.SpaServices.Extensions.dll">
+      <publishTime>12/01/2020 23:20:58</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:24:48</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>12/12/2020 07:17:58</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>12/12/2020 07:18:16</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>12/12/2020 07:18:22</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>12/12/2020 07:18:52</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>11/26/2020 01:59:12</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>05/18/2020 20:11:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>06/30/2020 01:04:58</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>06/30/2020 01:05:58</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>06/30/2020 01:06:48</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>06/30/2020 01:13:54</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>06/30/2020 01:09:50</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.Bson.dll">
+      <publishTime>11/27/2018 23:10:18</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:25:12</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:35:06</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/25/2020 20:34:56</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb">
+      <publishTime>08/25/2020 20:31:56</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/25/2020 23:24:48</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:53:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:53:46</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/15/2019 08:37:04</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>12/12/2020 02:40:42</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>06/30/2020 01:03:46</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>11/15/2019 08:37:36</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>11/15/2019 08:37:42</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>01/24/2021 00:56:33</publishTime>
+    </File>
+    <File Include="Zakariev.deps.json">
+      <publishTime>01/24/2021 00:53:12</publishTime>
+    </File>
+    <File Include="Zakariev.dll">
+      <publishTime>01/24/2021 00:53:07</publishTime>
+    </File>
+    <File Include="Zakariev.exe">
+      <publishTime>01/24/2021 00:53:09</publishTime>
+    </File>
+    <File Include="Zakariev.pdb">
+      <publishTime>01/24/2021 00:53:07</publishTime>
+    </File>
+    <File Include="Zakariev.runtimeconfig.json">
+      <publishTime>01/23/2021 01:23:26</publishTime>
+    </File>
+    <File Include="Zakariev.Views.dll">
+      <publishTime>01/24/2021 00:53:11</publishTime>
+    </File>
+    <File Include="Zakariev.Views.pdb">
+      <publishTime>01/24/2021 00:53:11</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
