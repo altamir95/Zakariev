@@ -52,7 +52,7 @@ class BasketAPIComponent extends React.Component {
       .then(function (response) {
         alert("Заказ оформлен, ждите звонка");
         localStorage.setItem("mybasket", JSON.stringify([]));
-        that.props.setBasketProducts([]);
+        that.props.setBasketProducts({productsWithQuantities:[]});
         that.props.updateBasketCount();
       });
   };

@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\altam\\Documents\\GitHub\\Zakariev\\Zakariev\\Zakariev.csproj": {}
+    "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/Zakariev.csproj": {}
   },
   "projects": {
-    "C:\\Users\\altam\\Documents\\GitHub\\Zakariev\\Zakariev\\Zakariev.csproj": {
+    "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/Zakariev.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\altam\\Documents\\GitHub\\Zakariev\\Zakariev\\Zakariev.csproj",
+        "projectUniqueName": "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/Zakariev.csproj",
         "projectName": "Zakariev",
-        "projectPath": "C:\\Users\\altam\\Documents\\GitHub\\Zakariev\\Zakariev\\Zakariev.csproj",
-        "packagesPath": "C:\\Users\\altam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\altam\\Documents\\GitHub\\Zakariev\\Zakariev\\obj\\",
+        "projectPath": "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/Zakariev.csproj",
+        "packagesPath": "/Users/tamir/.nuget/packages/",
+        "outputPath": "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\altam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/tamir/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }
