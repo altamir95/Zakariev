@@ -28,8 +28,8 @@ let Product = (props) => {
             </button>
             <div className="accordion m-0" id="accordionExample">
               {props.product.productСharacteristics.map(data => (
-                <div key={data.id} className="card border-0 ">
-                  <div  key={data.id} className="card-header pl-0 border-0" id={"heading" + data.id}>
+                <div key={data.id} className="card  border-0 ">
+                  <div  key={data.id} className="card-header bg-transparent pl-0 border-0" id={"heading" + data.id}>
                     <h5  key={data.id} className="mb-0">
                       <button  key={data.id} className="pl-0 nav-link font-weight-bold  text-uppercase btn btn-link dropdown-toggle collapsed" type="button" data-toggle="collapse" data-target={"#collapse" + data.id} aria-expanded="false" aria-controls={"collapse" + data.id}>
                         {data.main}

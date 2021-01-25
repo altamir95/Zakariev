@@ -5549,7 +5549,7 @@
       "outputPath": "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tamir/.config/NuGet/NuGet.Config"
+        "/Users/tamir/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
