@@ -5537,24 +5537,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/tamir/.nuget/packages/": {}
+    "C:\\Users\\altam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/Zakariev.csproj",
+      "projectUniqueName": "C:\\Users\\altam\\Documents\\GitHub\\Zakariev\\Zakariev\\Zakariev.csproj",
       "projectName": "Zakariev",
-      "projectPath": "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/Zakariev.csproj",
-      "packagesPath": "/Users/tamir/.nuget/packages/",
-      "outputPath": "/Users/tamir/Documents/GitHub/Zakariev/Zakariev/obj/",
+      "projectPath": "C:\\Users\\altam\\Documents\\GitHub\\Zakariev\\Zakariev\\Zakariev.csproj",
+      "packagesPath": "C:\\Users\\altam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\altam\\Documents\\GitHub\\Zakariev\\Zakariev\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/tamir/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\altam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5612,7 +5614,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
