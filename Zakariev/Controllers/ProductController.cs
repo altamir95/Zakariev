@@ -61,7 +61,7 @@ namespace Zakariev.Controllers
                 }
                 else
                 {
-                    productsInBasketPageModel.ProductsWithQuantities.ForEach(u => { if (u.Id == index) { u.Quantity = u.Quantity + 1; } });
+                    productsInBasketPageModel.ProductsWithQuantities.ForEach(u => { if (u.Id == index) { u.Quantity += 1; } });
                 }
                 productsInBasketPageModel.ProductsWithQuantities.ForEach(u => { productsInBasketPageModel.AmountToPay = productsInBasketPageModel.AmountToPay + (u.Price * u.Quantity); });
             }

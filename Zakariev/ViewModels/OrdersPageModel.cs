@@ -9,11 +9,13 @@ namespace Zakariev.ViewModels
     public class OrdersPageModel
     {
         public int CountProducts { get; set; }
+        
         public List<OrderInfo> OrderInfos { get; set; }
         public OrdersPageModel()
         {
             OrderInfos = new List<OrderInfo>();
         }
+
 
         public class OrderInfo
         {
@@ -29,6 +31,7 @@ namespace Zakariev.ViewModels
         {
             public int ProductId { get; set; }
             public string NameProduct { get; set; }
+            public int Quantity { get; set; }
         }
     }
 }

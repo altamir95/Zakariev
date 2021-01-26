@@ -50,12 +50,42 @@ namespace Zakariev.Controllers
             List<OrderInfo> orderInfos = new List<OrderInfo>();
 
             List<Order> orders = listOrders.Where((item, index) => index >= objectFromWhichPageStarts && index < objectFromWhichPageEnds).ToList();
-            orders.ForEach(u => { u.OrderProducts.ForEach(o => { o.Product = db.Products.FirstOrDefault(x => x.Id == o.ProductId); }); });
+            orders.ForEach(u =>
+            {
+                u.OrderProducts.ForEach(o =>
+                {
+                    o.Product = db.Products.FirstOrDefault(x => x.Id == o.ProductId);
+                });
+            });
 
-            orders.ForEach(u => { OrderInfo orderInfo = new OrderInfo() { PhoneNum = u.PhoneNum, Id = u.Id }; orderInfos.Add(orderInfo); u.OrderProducts.ForEach(o => { orderInfo.ProductInfos.Add(new ProductInfo() { ProductId = o.ProductId, NameProduct = o.Product.Name }); }); });
+            orders.ForEach(u =>
+            {
+                OrderInfo orderInfo = new OrderInfo()
+                {
+                    ProductInfos = new List<ProductInfo>(),
+                    PhoneNum = u.PhoneNum,
+                    Id = u.Id
+                };
+
+
+                u.OrderProducts.ForEach(o =>
+                {
+
+                    if (orderInfo.ProductInfos.FirstOrDefault(x => x.ProductId == o.ProductId) == null)
+                    {
+                        Product product = db.Products.FirstOrDefault(u => u.Id == o.ProductId);
+                        orderInfo.ProductInfos.Add(new ProductInfo() { ProductId = product.Id, NameProduct = product.Name, Quantity = 1 });
+                    }
+                    else
+                    {
+                        orderInfo.ProductInfos.ForEach(u => { if (u.ProductId == o.ProductId) { u.Quantity += 1; } });
+                    }
+
+                });
+                orderInfos.Add(orderInfo);
+            });
 
             OrdersPageModel orderPageModel = new OrdersPageModel() { OrderInfos = orderInfos, CountProducts = listOrders.Count };
-
 
             return new ObjectResult(orderPageModel);
         }

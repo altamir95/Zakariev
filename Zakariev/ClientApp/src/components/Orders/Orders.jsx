@@ -35,7 +35,7 @@ function Orders(props) {
                   <p className="text-uppercase">Номер заказчика: {data.phoneNum}</p>
                   {data.productInfos.map((data, index) => (
                     <>
-                      <NavLink to={"/product/"+data.productId}><span className="btn btn-sm btn-dark m-2">{data.nameProduct}</span></NavLink>
+                      <NavLink to={"/product/"+data.productId}><span className="btn btn-sm btn-dark m-2">{data.nameProduct} <span class="badge badge-light">{data.quantity}</span></span> </NavLink>
                     </>
                   ))}
                 </div>

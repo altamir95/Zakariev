@@ -14,13 +14,13 @@
       <publishTime>01/22/2021 21:05:45</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>01/25/2021 23:28:47</publishTime>
+      <publishTime>01/26/2021 12:42:20</publishTime>
     </File>
     <File Include="ClientApp/build/.DS_Store">
       <publishTime>01/26/2021 01:29:35</publishTime>
     </File>
     <File Include="ClientApp/build/asset-manifest.json">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/favicon.ico">
       <publishTime>01/26/2021 01:29:35</publishTime>
@@ -80,7 +80,7 @@
       <publishTime>01/23/2021 15:39:11</publishTime>
     </File>
     <File Include="ClientApp/build/index.html">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/logo192.png">
       <publishTime>01/26/2021 01:29:35</publishTime>
@@ -101,10 +101,10 @@
       <publishTime>01/22/2021 21:15:34</publishTime>
     </File>
     <File Include="ClientApp/build/static/css/2.150d169a.chunk.css">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/css/2.150d169a.chunk.css.map">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/css/2.cf29e716.chunk.css">
       <publishTime>01/22/2021 21:15:34</publishTime>
@@ -131,10 +131,19 @@
       <publishTime>01/24/2021 00:56:29</publishTime>
     </File>
     <File Include="ClientApp/build/static/css/main.b4f1ce6c.chunk.css">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/css/main.b4f1ce6c.chunk.css.map">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.18c2d64b.chunk.js">
+      <publishTime>01/26/2021 13:37:27</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.18c2d64b.chunk.js.LICENSE.txt">
+      <publishTime>01/26/2021 13:37:27</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/2.18c2d64b.chunk.js.map">
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/2.7378cfac.chunk.js">
       <publishTime>01/22/2021 21:15:34</publishTime>
@@ -185,16 +194,22 @@
       <publishTime>01/23/2021 15:32:13</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/3.7dafd58e.chunk.js">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/3.7dafd58e.chunk.js.map">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/main.2180a1db.chunk.js">
       <publishTime>01/23/2021 15:32:13</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/main.2180a1db.chunk.js.map">
       <publishTime>01/23/2021 15:32:13</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.2315fc50.chunk.js">
+      <publishTime>01/26/2021 13:08:02</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.2315fc50.chunk.js.map">
+      <publishTime>01/26/2021 13:08:02</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/main.377835f4.chunk.js">
       <publishTime>01/24/2021 00:56:29</publishTime>
@@ -207,6 +222,12 @@
     </File>
     <File Include="ClientApp/build/static/js/main.65035715.chunk.js.map">
       <publishTime>01/26/2021 01:40:40</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.7bc52d15.chunk.js">
+      <publishTime>01/26/2021 13:37:27</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.7bc52d15.chunk.js.map">
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/main.82e8c5aa.chunk.js">
       <publishTime>01/23/2021 23:29:27</publishTime>
@@ -225,6 +246,12 @@
     </File>
     <File Include="ClientApp/build/static/js/main.efcb10e4.chunk.js.map">
       <publishTime>01/23/2021 15:56:18</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.ff186955.chunk.js">
+      <publishTime>01/26/2021 13:25:15</publishTime>
+    </File>
+    <File Include="ClientApp/build/static/js/main.ff186955.chunk.js.map">
+      <publishTime>01/26/2021 13:25:15</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/runtime-main.6d347f62.js">
       <publishTime>01/22/2021 21:15:34</publishTime>
@@ -245,16 +272,16 @@
       <publishTime>01/23/2021 15:32:13</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/runtime-main.c4a8decd.js">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/js/runtime-main.c4a8decd.js.map">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="ClientApp/build/static/media/logo.6ce24c58.svg">
       <publishTime>01/23/2021 15:56:18</publishTime>
     </File>
     <File Include="ClientApp/build/static/media/preloader.ca88df5f.svg">
-      <publishTime>01/26/2021 01:40:40</publishTime>
+      <publishTime>01/26/2021 13:37:27</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
       <publishTime>12/14/2020 05:06:10</publishTime>
@@ -362,28 +389,28 @@
       <publishTime>11/15/2019 08:37:42</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>01/26/2021 01:40:46</publishTime>
+      <publishTime>01/26/2021 13:37:31</publishTime>
     </File>
     <File Include="Zakariev.deps.json">
-      <publishTime>01/26/2021 01:37:16</publishTime>
+      <publishTime>01/26/2021 13:35:07</publishTime>
     </File>
     <File Include="Zakariev.dll">
-      <publishTime>01/26/2021 01:37:14</publishTime>
+      <publishTime>01/26/2021 13:35:01</publishTime>
     </File>
     <File Include="Zakariev.exe">
-      <publishTime>01/26/2021 01:37:14</publishTime>
+      <publishTime>01/26/2021 13:35:01</publishTime>
     </File>
     <File Include="Zakariev.pdb">
-      <publishTime>01/26/2021 01:37:14</publishTime>
+      <publishTime>01/26/2021 13:35:01</publishTime>
     </File>
     <File Include="Zakariev.runtimeconfig.json">
       <publishTime>01/26/2021 01:37:17</publishTime>
     </File>
     <File Include="Zakariev.Views.dll">
-      <publishTime>01/26/2021 01:37:15</publishTime>
+      <publishTime>01/26/2021 13:35:07</publishTime>
     </File>
     <File Include="Zakariev.Views.pdb">
-      <publishTime>01/26/2021 01:37:15</publishTime>
+      <publishTime>01/26/2021 13:35:07</publishTime>
     </File>
   </ItemGroup>
 </Project>

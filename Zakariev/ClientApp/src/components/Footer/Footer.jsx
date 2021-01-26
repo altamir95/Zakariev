@@ -1,4 +1,6 @@
 import React from "react";
+import $ from "jquery";
+
 // import {NavLink} from "react-router-dom"
 // const MasterCard = "/images/mastercard.svg";
 // const Visa = "/images/visa.svg";
@@ -21,6 +23,7 @@ import React from "react";
 //     height: 60
 // };
 function Footer() {
+
   return (
     <footer className="bg-black text-white">
       <div className="container pr-1 pl-1 pr-sm-1 pl-sm-1 pr-md-1 pl-md-1 pr-lg-5 pl-lg-5 pr-xl-5 pl-xl-5">
