@@ -14,7 +14,7 @@ let Products = (props) => {
                     onClick={() => {
                       props.onPageChanged(p);
                     }}
-                    className="page-link "
+                    className="page-link rounded-0"
                   >
                     {p}
                   </button>
@@ -23,16 +23,16 @@ let Products = (props) => {
             ))}
           </ul>
         </nav>
-        <div className="row  justify-content-center p-3 row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 row-cols-xl-6">
+        <div className="row  justify-content-center p-3 row-cols-2 row-cols-sm-2  row-cols-md-4 row-cols-lg-5 row-cols-xl-6">
           {props.products.map(data => (
-            <div key={"5"+data.id} className="col nav-link d-flex flex-column   text-dark align-items-center p-0 m-0 ">
+            <NavLink to={"/product/" + data.id} key={"5"+data.id} className="col nav-link d-flex flex-column    text-dark align-items-center p-0 m-0 ">
               <img  key={"1"+data.id} alt="" className=" w-75 align-self-center" src={data.imagesUrl}></img>
-              <p  key={"2"+data.id} className="h2 text-center font-weight-light">{data.name}</p>
-              <p  key={"3"+data.id} className="h5 font-weight-bold ">{data.price} ₽</p>
-              <NavLink  key={"4"+data.id} to={"/product/" + data.id} type="button" className="btn btn-secondary rounded-0  ">
+              <p  key={"2"+data.id} className="h2 text-center font-weight-light serif">{data.name}</p>
+              <p  key={"3"+data.id} className="h5 font-weight-bold serif">{data.price} ₽</p>
+              {/* <NavLink  key={"4"+data.id} to={"/product/" + data.id} type="button" className="btn btn-secondary rounded-0  text-uppercase ">
                 Подробнее
-              </NavLink>
-            </div>
+              </NavLink> */}
+            </NavLink>
           ))}
         </div>
       </div>

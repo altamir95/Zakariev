@@ -41,6 +41,7 @@ class BasketAPIComponent extends React.Component {
   };
 
   toOrder = () => {
+    this.props.toggleIsFething(true);
     let that = this;
     axios
       .post("/api/order", {
@@ -54,6 +55,7 @@ class BasketAPIComponent extends React.Component {
         localStorage.setItem("mybasket", JSON.stringify([]));
         that.props.setBasketProducts({productsWithQuantities:[]});
         that.props.updateBasketCount();
+        that.props.toggleIsFething(false);
       });
   };
 

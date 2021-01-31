@@ -10,10 +10,10 @@ let Product = (props) => {
             </p>
           </div>
           <div className="col">
-            <p className="display-4 ">{props.product.name}</p>
+            <p className="display-4 serif">{props.product.name}</p>
             <p className="mb-5 text-black-50 font-weight-bold">{props.product.short_info}</p>
-            <p className="h4 mb-3">
-              <span className="text-uppercase font-weight-bold ">Цена: </span>
+            <p className="h4 mb-3 font-weight-bold">
+              <span className="text-uppercase  font-weight-normal ">Цена: </span>
               {props.product.price} ₽
             </p>
             <button
@@ -31,7 +31,7 @@ let Product = (props) => {
                 <div key={data.id} className="card  border-0 ">
                   <div  key={data.id} className="card-header bg-transparent pl-0 border-0" id={"heading" + data.id}>
                     <h5  key={data.id} className="mb-0">
-                      <button  key={data.id} className="pl-0 nav-link font-weight-bold  text-uppercase btn btn-link dropdown-toggle collapsed" type="button" data-toggle="collapse" data-target={"#collapse" + data.id} aria-expanded="false" aria-controls={"collapse" + data.id}>
+                      <button  key={data.id} className="serif pl-0 nav-link btn-lg font-weight-bold  text-uppercase btn btn-link dropdown-toggle collapsed" type="button" data-toggle="collapse" data-target={"#collapse" + data.id} aria-expanded="false" aria-controls={"collapse" + data.id}>
                         {data.main}
                       </button>
                     </h5>

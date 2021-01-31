@@ -5,14 +5,14 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 let Basket = (props) => {
   return (
     <article className="flex-grow-1 mt-5 d-flex flex-column">
-      <p className=" text-uppercase text-center display-4 font-weight-bold">Корзина</p>
+      <p className=" text-uppercase text-center display-4 font-weight-bold serif">Корзина</p>
       <div className=" container-fluid">
         <div className="row  justify-content-center row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
           {props.basketProducts.productsWithQuantities.map((data, index) => (
             <div key={"1" + index} className="col nav-link d-flex flex-column m-0 text-dark align-items-center  ">
               <NavLink key={"5" + index} to={"/product/" + data.id} className=" d-flex flex-column align-items-center nav-link active text-dark" >
                 <img key={"2" + index} className=" w-75 align-self-center" alt="" src={data.imagesUrl}></img>
-                <p key={"3" + index} className="h2 font-weight-light text-center">
+                <p key={"3" + index} className="h2 font-weight-light text-center ">
                   {data.name}
                 </p>
                 <p key={"4" + index} className="h5 font-weight-bold ">
@@ -24,7 +24,7 @@ let Basket = (props) => {
                   {" "}
                   -{" "}
                 </span>
-                <span className="p-2  text-white bg-secondary  m-0 ">{data.quantity}</span>
+                <span className="p-2  text-white bg-secondary  p2-3 pr-2 ">{data.quantity}</span>
                 <span onClick={(e) => props.updateBasket("ADD",e.target.id)} id={data.id} className="select-block p-2 btn-secondary rounded-right m-0 ">+</span>
               </p>
             </div>
@@ -34,9 +34,9 @@ let Basket = (props) => {
       {JSON.parse(localStorage.getItem("mybasket")).length === 0 ? (
         <p className="text-uppercase text-center display-4 text-danger">пусто</p>
       ) : (
-        <button type="button" className="btn btn-success align-self-center mb-5" data-toggle="modal" data-target="#exampleModal">
-          <p className="m-0 text-uppercase h3">
-            заказать <span class="badge badge-light">{props.basketProducts.amountToPay} руб.</span>
+        <button type="button" className="btn btn-success align-self-center mb-5 rounded-0" data-toggle="modal" data-target="#exampleModal">
+          <p className="m-0 text-uppercase h4">
+            заказать <span class="badge badge-light ">{props.basketProducts.amountToPay} руб.</span>
           </p>
         </button>
       )}

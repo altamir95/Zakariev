@@ -1,5 +1,11 @@
 import React from "react";
-import preloader from "../../img/preloader.svg";
+let Preloader = (props)=> 
+<article className="flex-grow-1 d-flex flex-column  justify-content-center">
+<div className="text-center">
+<div className="spinner-grow"  role="status">
+  <span className="sr-only">Loading...</span>
+</div>
+</div>
+</article>
 
-let Preloader = (props)=> <p className="text-center m-5"><img alt="" src={preloader} /></p>
 export default Preloader;
