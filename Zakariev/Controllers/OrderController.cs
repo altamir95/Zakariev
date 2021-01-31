@@ -42,7 +42,7 @@ namespace Zakariev.Controllers
         [HttpGet("page={page=1}&count={count=5}")]
         public async Task<ActionResult<Order>> Get(int page, int count)
         {
-            List<Order> listOrders = await db.Orders.Include(x => x.OrderProducts).ToListAsync();
+            List<Order> listOrders = await db.Orders.Include(x => x.OrderProducts).OrderByDescending(u=>u.Id).ToListAsync();
 
             int objectFromWhichPageStarts = (page - 1) * count;
             int objectFromWhichPageEnds = objectFromWhichPageStarts + count;
