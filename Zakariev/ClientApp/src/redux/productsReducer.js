@@ -32,7 +32,6 @@ const productsReducer = (state = initialState, action) => {
       stateCopy.pages = pages;
       break;
     default:
-      console.log("НЕ ПОЛУЧИЛОСЬ");
   }
   return stateCopy;
 };

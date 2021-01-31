@@ -24,7 +24,6 @@ const productReducer = (state = initialState, action) => {
       stateCopy.isFething = action.isFething;
       break;
     default:
-      console.log("НЕ ПОЛУЧИЛОСЬ");
   }
   return stateCopy;
 };

@@ -10,10 +10,15 @@ import { setBasketProducts, deleteProductFromLocalStorage,addProductInLocalStora
 class BasketAPIComponent extends React.Component {
   basketProductUrlCreator = () => {
     var url = "/api/products/basketproducts?";
-    JSON.parse(localStorage.getItem("mybasket")).forEach((element) => {
+    if(localStorage.getItem("mybasket")){
+      JSON.parse(localStorage.getItem("mybasket")).forEach((element) => {
       url = url + "array=" + element + "&";
     });
     return url;
+    }else{
+      this.props.toggleIsFething(false);
+    }
+    
   };
 
   componentDidMount() {

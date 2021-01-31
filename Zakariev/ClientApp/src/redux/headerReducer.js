@@ -6,15 +6,13 @@ const headerReducer = (state = initialState, action) => {
   let stateCopy = { ...state };
   switch (action.type) {
     case "UPDATE-BASKET-COUNT":
-      let localStorageProducts = JSON.parse(localStorage.getItem("mybasket"));
-      if (localStorageProducts) {
-        stateCopy.basketCount = localStorageProducts.length;
+      if (localStorage.getItem("mybasket")) {
+        stateCopy.basketCount = JSON.parse(localStorage.getItem("mybasket")).length;
       }
 
       break;
 
     default:
-      console.log("НЕ ПОЛУЧИЛОСЬ UPDATE-BASKET-COUNT");
   }
 
   return stateCopy;

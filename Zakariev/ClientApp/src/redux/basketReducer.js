@@ -28,14 +28,12 @@ const basketReducer = (state = initialState, action) => {
       switch (action.keyName) {
         case "num":
           stateCopy.phoneNum = action.value;
-          console.log(stateCopy.basketProducts);
           break;
         default:
           break;
       }
       break;
     default:
-      console.log("НЕ ПОЛУЧИЛОСЬ");
   }
 
   return stateCopy;

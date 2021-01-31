@@ -1,4 +1,5 @@
 import React from "react";
+import AccordionCards from "./AccordionCards/AccordionCards";
 let Product = (props) => {
   return (
     <article className=" mt-5 mb-5">
@@ -27,23 +28,8 @@ let Product = (props) => {
               В КОРЗИНУ
             </button>
             <div className="accordion m-0" id="accordionExample">
-              {props.product.productСharacteristics.map(data => (
-                <div key={data.id} className="card  border-0 ">
-                  <div  key={data.id} className="card-header bg-transparent pl-0 border-0" id={"heading" + data.id}>
-                    <h5  key={data.id} className="mb-0">
-                      <button  key={data.id} className="serif pl-0 nav-link btn-lg font-weight-bold  text-uppercase btn btn-link dropdown-toggle collapsed" type="button" data-toggle="collapse" data-target={"#collapse" + data.id} aria-expanded="false" aria-controls={"collapse" + data.id}>
-                        {data.main}
-                      </button>
-                    </h5>
-                  </div>
-                  <div key={"0"+data.id} id={"collapse" + data.id} className="collapse " aria-labelledby="headingThree" data-parent="#accordionExample">
-                    <div key={data.id} className="card-body  ">
-                      {data.minor.split(";").map((text,index) => (
-                        <p key={index+"text"+data.id}>{text}</p>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+              {props.product.productСharacteristics.map((data) => (
+                <AccordionCards key={data.id} id={data.id} main={data.main} minor={data.minor}></AccordionCards>
               ))}
             </div>
           </div>

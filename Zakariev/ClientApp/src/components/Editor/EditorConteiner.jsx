@@ -54,6 +54,7 @@ class EditorAPIComponent extends React.Component {
       })
       .catch(function (error) {
         console.log(error);
+        alert("Логин или пароль не верен")
         that.props.setAuthorize(false);
       });
   };

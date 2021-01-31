@@ -46,7 +46,6 @@ const OrdersReducer = (state = initialState, action) => {
         pages.push(i);
       }
       stateCopy.pages = pages;
-      console.log("фдд пщщв")
       break;
     case "ONCHANGE-STATE-TEXTAREA":
       switch (action.keyName) {
@@ -62,7 +61,6 @@ const OrdersReducer = (state = initialState, action) => {
       break;
 
     default:
-      console.log("There is no such action in the despatch");
   }
   return stateCopy;
 };

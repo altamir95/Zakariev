@@ -14,7 +14,7 @@ let initialState = {
       },
     ],
   },
-  pageSize: 1,
+  pageSize: 6,
   authorize: false,
   TotalProductsCount: 0,
   pages: [],
@@ -98,7 +98,6 @@ const editorReducer = (state = initialState, action) => {
       break;
 
     default:
-      console.log("There is no such action in the despatch");
   }
   return stateCopy;
 };

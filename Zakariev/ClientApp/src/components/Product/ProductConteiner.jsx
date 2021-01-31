@@ -9,6 +9,7 @@ import Preloader from "../common/Preloader";
 
 class ProductAPIComponent extends React.Component {
   componentDidMount() {
+    this.props.toggleIsFething(true);
     axios.get("/api/products/" + this.props.match.params.id).then((response) => {
       console.log(response.data, "ответ");
       this.props.setProduct(response.data);
