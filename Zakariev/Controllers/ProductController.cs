@@ -31,7 +31,7 @@ namespace Zakariev.Controllers
                 });
                 db.Products.AddAsync(new Product
                 {
-                    Name = "Мужское зелье",
+                    Name = "Зелье",
                     ImagesUrl = "https://i.ibb.co/WfVTR7z/Eleksir-Pamyati.png",
                     ShortInfo = "Улучшает и восстанавливает мочеполовую систему у мужчин",
                     Price = 1100,

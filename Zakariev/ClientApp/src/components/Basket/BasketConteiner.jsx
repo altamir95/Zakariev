@@ -18,7 +18,6 @@ class BasketAPIComponent extends React.Component {
     }else{
       this.props.toggleIsFething(false);
     }
-    
   };
 
   componentDidMount() {
